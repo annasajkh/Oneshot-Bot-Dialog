@@ -115,7 +115,7 @@ def ai_generation(thread_name):
         except:
             continue
         
-        time.sleep(60 * 60 * 3)
+        time.sleep(60 * 60 * 5)
 
 
 
