@@ -23609,16 +23609,10 @@ niko:
 ....
 
 niko:
-I... Playerromise I'll never forget this world!
+I... Player i promise I'll never forget this world!
 
 niko:
 I promise... I'll never forget you, Player.
 
 niko:
 So... take care of yourself, okay?
-
-niko:
-Mhm....
-
-niko:
-Goodbye, Player...
