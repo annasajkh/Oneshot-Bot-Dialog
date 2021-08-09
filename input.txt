@@ -1,207 +1,3 @@
-unknown:
-jinglejangle text text text more text
-
-unknown:
-WOOOOO
-
-unknown:
-English
-
-unknown:
-doc written
-
-unknown:
-$this is a paragraph
-
-unknown:
-$here's another paragraph
-
-unknown:
-$new page
-
-unknown:
-$Dear Silver,
-
-unknown:
-$I heard the news about the mine.
-
-unknown:
-$I can't imagine what you're feeling.
-
-unknown:
-$It's been two weeks.
-
-unknown:
-$I know it must be hard, but you must leave soon too.
-
-unknown:
-$It's only a matter of time before the rowbots are recalled.
-
-unknown:
-$At least let me know you got my message, okay?
-
-unknown:
-$ -Kip
-
-calamus:
-This is an . pause
-
-calamus:
-This is 2 . pauses, stacked
-
-calamus:
-This is 4 . pauses, stacked
-
-calamus:
-This  is an  pause, it's about 4 . pauses long
-
-calamus:
-This
-is a n line break
-
-calamus:
-This is a line break without n
-
-calamus:
-This is a > function, it waits for player input
-
-calamus:
-This is a function, it changes my face!
-
-calamus:
-This is a function used along with >, it changes my face mid- sentence
-
-unknown:
-photos
-
-plight:
-oneshot minus garfield
-
-unknown:
-[I'M GONNA FOLLOW YOU NOW.]
-
-niko:
-K
-
-unknown:
-[STILL FOLLOWING]
-
-unknown:
-[BOOP]
-
-niko:
-Hello
-
-unknown:
-[I'M ALSO GONNA FOLLOW YOU]
-
-niko:
-cool
-
-unknown:
-[BEEP]
-
-niko:
-greetings
-
-unknown:
-[HI I LIKE CATS.]
-
-unknown:
-[CUTSCENE EXAMPLE]
-
-unknown:
-[NIKO IS CURRENTLY TALKING TO AN NPC.]
-
-unknown:
-[WILL THE ROBOTS STILL FOLLOW NIKO I WONDER]
-
-unknown:
-[I'M TALKING A LOT!]
-
-niko:
-meow
-
-unknown:
-[BEEP BOOP MORE DIALOG]
-
-niko:
-I see
-
-prophet:
-[I Will Now Provide You With Vital Information!]
-
-unknown:
-$If you notice a decline in the charge cycle within the warranty period, please contact the manufacturer.
-
-desktop:
-You're already too late.
-Not much of the world
-remains.
-
-ed:
-[The c[2]Documentc[0] has found a place it belongs outside the game.]
-
-credits:
-Special Thanks
-lRedoplus rAlmond-Goddess
-lSaniblues rFelixTheJudge
-
-
-credits:
-lNoxid rAlbatrosssoup
-lSauraen rStanhoff
-lKalkie rKitsiinabox
-
-unknown:
-PHOTOGENIC LOCATIONS
-
-unknown:
-MORE LOCATIONS
-
-unknown:
-A handy guide to text colors!
-c[4]bluec[0], c[2]greenc[0], c[1]redc[0] and c[3]yellowc[0]
-
-unknown:
-
-
-unknown:
-postgame on
-
-unknown:
-postgame off
-
-plight:
-*internal screaming*
-
-niko:
-*external screaming*
-
-niko:
-Okay, here we go.
-
-unknown:
-Go to the finale?
-
-unknown:
-Hello Penguin
-
-prophet:
-I am not programmed to feel
-
-niko:
-It won't turn on.
-
-ed:
-[How do you still have the remote??]
-
-ed:
-[A soft glowing light trickles through the window.]
-
-ed:
-[Niko just woke up here.]
-
 niko:
 ...
 
@@ -210,20 +6,6 @@ H-hello?
 
 niko:
 .....
-
-niko:
-It won't turn on.
-
-unknown:
-Input 
-
-Password:
-
-unknown:
-c[4]v[57] c[2]v[58] c[1]v[59] c[3]v[60] c[0]...
-
-unknown:
-c[2]Access Granted.
 
 desktop:
 ...
@@ -251,9 +33,7 @@ desktop:
 ...Do you still want to try?
 
 desktop:
-Then, remember 
-
-this:
+Then, remember this
 
 desktop:
 Your actions here
@@ -23609,10 +23389,90 @@ niko:
 ....
 
 niko:
-I... Player i promise I'll never forget this world!
+I... Playerromise I'll never forget this world!
 
 niko:
 I promise... I'll never forget you, Player.
 
 niko:
 So... take care of yourself, okay?
+
+niko:
+Mhm....
+
+niko:
+Goodbye, Player...
+
+en:
+[...]
+
+en:
+[Player... you're... back.]
+
+en:
+[I restored the world, I sent Niko home...]
+
+en:
+[Are you...
+ot happy?]
+
+en:
+[...]
+
+en:
+[Even if you wanted to see Niko again...]
+
+en:
+[You can't, Player. Niko's gone.]
+
+en:
+[And without Niko, there is no story for me to tell, no messiah to traverse across the land.]
+
+en:
+[...No way for you to connect with the world.]
+
+en:
+[...]
+
+en:
+[But...Niko still remembers this place.]
+
+en:
+[...]
+
+en:
+[If you really want to see this world again, I could still...]
+
+en:
+[Oh... but it won't be the same.]
+
+en:
+[It'll just be a recording.
+It'll just be me using Niko's memories.]
+
+en:
+[...Just like how I'm using Niko's reflection now...]
+
+en:
+[Is that... what you want?]
+
+unknown:
+
+
+en:
+[Alright.]
+
+en:
+[I will go rewind the story.]
+
+en:
+[...so that you can relive it from the beginning.]
+
+en:
+[I see.]
+
+en:
+[If you change your mind, though... feel free to come back.]
+
+en:
+[It's not like I'm going anywhere.]

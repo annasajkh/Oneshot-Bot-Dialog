@@ -1,19 +1,15 @@
 import requests
 import json
 
-def get_gpt():
-
-    file = open("input.txt", "r")
+def get_gpt(text):
 
     payload = { 
-        "prompt": file.read().encode("utf-8").decode("utf-8", "ignore"), 
+        "prompt": text, 
         "temperature": 1,
         "top_k": 40, 
         "top_p": 0.9, 
         "seed": 0
     }
-
-    file.close()
 
     url = "https://bellard.org/textsynth/api/v1/engines/gptj_6B/completions"
 
