@@ -114,7 +114,7 @@ def ai_generation(thread_name):
             text = None
 
             uploader = upload.VideoTweet("video.mp4", auth.apply_auth())
-            uploader.upload("AI tried to continue\n" + input_text[rand_index])
+            uploader.upload("AI tries to continue\n" + input_text[rand_index])
             uploader = None
             
             gc.collect()
