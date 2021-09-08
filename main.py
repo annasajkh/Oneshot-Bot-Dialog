@@ -98,38 +98,38 @@ def human_generation(thread_name):
                     time.sleep(random.randrange(1, 3))
 
 def ai_generation(thread_name):
-    print("thread " + thread_name + " starting")
+    # print("thread " + thread_name + " starting")
 
-    while True:
-        try:
-            with open("input.txt" ,"r") as file:
-                input_text = file.read()
+    # while True:
+    #     try:
+    #         with open("input.txt" ,"r") as file:
+    #             input_text = file.read()
 
-            input_text = input_text.split("\n\n")
+    #         input_text = input_text.split("\n\n")
 
-            rand_index = random.randrange(len(input_text))
+    #         rand_index = random.randrange(len(input_text))
 
-            text = get_gpt("\n\n".join(input_text[:rand_index]))
-            generate_video.generate(text)
-            text = None
+    #         text = get_gpt("\n\n".join(input_text[:rand_index]))
+    #         generate_video.generate(text)
+    #         text = None
 
-            uploader = upload.VideoTweet("video.mp4", auth.apply_auth())
-            uploader.upload("AI tries to continue\n" + input_text[rand_index])
-            uploader = None
+    #         uploader = upload.VideoTweet("video.mp4", auth.apply_auth())
+    #         uploader.upload("AI tries to continue\n" + input_text[rand_index])
+    #         uploader = None
             
-            gc.collect()
-            os.remove("video.mp4")
-        except:
-            continue
+    #         gc.collect()
+    #         os.remove("video.mp4")
+    #     except:
+    #         continue
         
-        time.sleep(60 * 60 * 10)
+    #     time.sleep(60 * 60 * 10)
 
 
 
 
 
 _thread.start_new_thread(human_generation, ("human",))
-_thread.start_new_thread(ai_generation, ("ai",))
+# _thread.start_new_thread(ai_generation, ("ai",))
 
 while 1:
     pass
