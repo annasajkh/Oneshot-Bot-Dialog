@@ -47,7 +47,7 @@ def generate_textboxes(data):
             if faces[i.face_name] == None:
                     faces[i.face_name] = Image.open(f"res/faces/{i.face_name}.png")
         except:
-            faces[i.face_name] = Image.new("RGBA",(96,96), color=(0,0,0))
+            raise Exception(f"there are no face named {i.face_name}")
     
     #and little more frames to match the sound
     for i in data:
