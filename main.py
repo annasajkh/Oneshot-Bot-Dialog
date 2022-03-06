@@ -86,7 +86,6 @@ def human_generation(thread_name):
                 
                 gc.collect()
                 os.remove("video.mp4")
-                time.sleep(60 * 15)
             except Exception as ex:
                 #if there is error send it to the user and sleep for random 1 - 3 seconds
                 message = repr(ex)
