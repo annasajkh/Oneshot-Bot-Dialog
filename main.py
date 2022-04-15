@@ -54,10 +54,8 @@ def human_generation(thread_name):
                     dm.destroy()
                     text = text.replace("#post","").strip()
                     
-                    if profanity.contains_profanity(text):
-                        raise Exception("bot detect that there is bad word in your text please delete it")
-                    elif predict([text])[0] == 1:
-                        raise Exception("ai detect that there is bad word in your text please delete it")
+                    if predict([text])[0] == 1:
+                        raise Exception(f"ai detect that there is bad word in your text \"{text}\"")
                     
                     text = f"{text}\n-@{twitter.get_user(dm.message_create['sender_id']).screen_name}"
                     
