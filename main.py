@@ -64,6 +64,7 @@ def human_generation(thread_name):
                     
                     send_then_delete_dm(sender_id, "request is accepted please wait for moment for the request to be process")
 
+
                     twitter.update_status(text)
                     continue
 
