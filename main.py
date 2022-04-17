@@ -62,8 +62,10 @@ def human_generation(thread_name):
                     if len(text) > 280:
                         raise Exception("text is too long")
                     
+                    
                     send_then_delete_dm(sender_id, "request is accepted please wait for moment for the request to be process")
 
+                    print("patch")
 
                     twitter.update_status(text)
                     continue
